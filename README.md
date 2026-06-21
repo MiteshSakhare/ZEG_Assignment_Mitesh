@@ -1,5 +1,6 @@
 # 🌍 Buildable Land Analysis
-<img width="1915" height="867" alt="image" src="https://github.com/user-attachments/assets/a09f705d-3e0b-4ba5-9865-e8d0b849b876" />
+<img width="1917" height="912" alt="image" src="https://github.com/user-attachments/assets/699d32c9-d41b-47c4-8505-61d05abc0199" />
+
 
 A robust, production-grade spatial analysis tool that calculates the usable buildable area of land parcels by subtracting constraint layers (wetlands, FEMA flood zones, and transmission easements) alongside customizable setbacks.
 
