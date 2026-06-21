@@ -1,0 +1,200 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "LLANO-0001",
+        "owner": "Hartwell Family Trust",
+        "county": "Llano",
+        "situs_address": "1001 County Rd, Llano County, TX",
+        "land_use": "Rural / Agricultural",
+        "source": "SAMPLE DATA - replace with TNRIS county parcel layer",
+        "acres_hint": 100
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.6950564213799,
+              30.757983404904383
+            ],
+            [
+              -98.68838258663081,
+              30.7580737840966
+            ],
+            [
+              -98.68817216912633,
+              30.763600574966265
+            ],
+            [
+              -98.69494116611713,
+              30.76333164410768
+            ],
+            [
+              -98.6950564213799,
+              30.757983404904383
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "LLANO-0002",
+        "owner": "J. & M. Castellano",
+        "county": "Llano",
+        "situs_address": "1002 County Rd, Llano County, TX",
+        "land_use": "Rural / Agricultural",
+        "source": "SAMPLE DATA - replace with TNRIS county parcel layer",
+        "acres_hint": 95
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.6876483010835,
+              30.758202442011378
+            ],
+            [
+              -98.68089589959781,
+              30.758062669968716
+            ],
+            [
+              -98.68061165269637,
+              30.763540493315155
+            ],
+            [
+              -98.68764747907636,
+              30.763560705151846
+            ],
+            [
+              -98.6876483010835,
+              30.758202442011378
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "LLANO-0003",
+        "owner": "Pedernales Ranch LLC",
+        "county": "Llano",
+        "situs_address": "1003 County Rd, Llano County, TX",
+        "land_use": "Rural / Agricultural",
+        "source": "SAMPLE DATA - replace with TNRIS county parcel layer",
+        "acres_hint": 102
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.67978054642117,
+              30.758290351564117
+            ],
+            [
+              -98.67315284576446,
+              30.758042898651915
+            ],
+            [
+              -98.67287151083907,
+              30.76344548711257
+            ],
+            [
+              -98.68010570789542,
+              30.763336102667836
+            ],
+            [
+              -98.67978054642117,
+              30.758290351564117
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "LLANO-0004",
+        "owner": "R. Okafor",
+        "county": "Llano",
+        "situs_address": "1004 County Rd, Llano County, TX",
+        "land_use": "Rural / Agricultural",
+        "source": "SAMPLE DATA - replace with TNRIS county parcel layer",
+        "acres_hint": 88
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.69117994950739,
+              30.751464757694734
+            ],
+            [
+              -98.68446347999028,
+              30.751575740788375
+            ],
+            [
+              -98.68453538832398,
+              30.75670373052786
+            ],
+            [
+              -98.6911697914731,
+              30.75673404500708
+            ],
+            [
+              -98.69117994950739,
+              30.751464757694734
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "LLANO-0005",
+        "owner": "Cedar Crossing Holdings",
+        "county": "Llano",
+        "situs_address": "1005 County Rd, Llano County, TX",
+        "land_use": "Rural / Agricultural",
+        "source": "SAMPLE DATA - replace with TNRIS county parcel layer",
+        "acres_hint": 91
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.6836267152427,
+              30.75115289591895
+            ],
+            [
+              -98.6770040783863,
+              30.751263960911405
+            ],
+            [
+              -98.67707161485852,
+              30.75655815264418
+            ],
+            [
+              -98.6839019433482,
+              30.756578755963016
+            ],
+            [
+              -98.6836267152427,
+              30.75115289591895
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

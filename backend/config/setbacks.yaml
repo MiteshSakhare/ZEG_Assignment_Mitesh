@@ -1,0 +1,10 @@
+# Default setback / buffer distances, in meters, applied to each constraint
+# layer before it's subtracted from the parcel. Override any of these per
+# request via the `setbacks` field on POST /api/analyze, or edit this file
+# and restart the backend to change the defaults for everyone.
+#
+# Sources are documented in APPROACH.md; summarized here:
+wetlands_m: 30          # EPA Section 404/401 guidance + common state riparian buffer
+flood_zone_m: 0         # The FEMA SFHA boundary itself is the regulatory line (NFIP)
+transmission_lines_m: 30  # 100 ft (≈30m) each side of typical 138kV ROW centerline
+buildings_m: 5           # Generic structure / fire-access setback

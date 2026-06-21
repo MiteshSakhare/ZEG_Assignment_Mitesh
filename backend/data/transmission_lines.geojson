@@ -1,0 +1,30 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TLINE-001",
+        "voltage_kv": 138,
+        "source": "SAMPLE DATA - replace with EIA / utility ROW layer"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -98.68372,
+            30.7487
+          ],
+          [
+            -98.68068,
+            30.752499999999998
+          ],
+          [
+            -98.67726,
+            30.75516
+          ]
+        ]
+      }
+    }
+  ]
+}

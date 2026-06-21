@@ -1,0 +1,79 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import './styles/shaders.css';
+
+@layer base {
+  :root {
+    /* Light Mode */
+    --color-ink: 240, 244, 248;        /* #f0f4f8 */
+    --color-ink-deep: 226, 232, 240;   /* #e2e8f0 */
+    --color-ink-line: 203, 213, 225;   /* #cbd5e1 */
+    --color-paper: 15, 23, 42;         /* #0f172a */
+    --color-paper-dim: 71, 85, 105;    /* #475569 */
+    --color-survey: 14, 165, 233;      /* #0ea5e9 */
+    --color-buildable: 16, 185, 129;   /* #10b981 */
+    --color-excluded: 239, 68, 68;     /* #ef4444 */
+    --color-carve: 56, 189, 248;       /* #38bdf8 */
+    --color-restore: 14, 165, 233;     /* #0ea5e9 */
+    --color-glass-border: rgba(0, 0, 0, 0.1);
+    --color-glass-fill: rgba(255, 255, 255, 0.7);
+  }
+
+  .dark {
+    /* Dark Mode (Luminal Spatial) */
+    --color-ink: 19, 19, 24;           /* #131318 */
+    --color-ink-deep: 10, 10, 15;      /* #0a0a0f */
+    --color-ink-line: 42, 41, 47;      /* #2a292f */
+    --color-paper: 228, 225, 233;      /* #e4e1e9 */
+    --color-paper-dim: 185, 203, 185;  /* #b9cbb9 */
+    --color-survey: 0, 209, 255;       /* #00d1ff */
+    --color-buildable: 0, 255, 136;    /* #00ff88 */
+    --color-excluded: 255, 51, 102;    /* #ff3366 */
+    --color-carve: 172, 232, 255;      /* #ace8ff */
+    --color-restore: 0, 209, 255;      /* #00d1ff */
+    --color-glass-border: rgba(255, 255, 255, 0.05);
+    --color-glass-fill: rgba(19, 19, 24, 0.6);
+  }
+
+  body {
+    @apply bg-ink-deep text-paper antialiased;
+    font-family: 'Geist', sans-serif;
+    overflow: hidden;
+  }
+}
+
+.maplibregl-ctrl-group button:hover {
+  background: var(--color-glass-border) !important;
+}
+
+/* Shift bottom-left MapLibre controls to clear the Setback sidebar on large screens */
+@media (min-width: 1024px) {
+  .maplibregl-ctrl-bottom-left {
+    left: 22rem !important;
+    bottom: 2rem !important;
+  }
+}
+
+/* For tablet and mobile, place it above the bottom navigation tabs */
+@media (max-width: 1023px) {
+  .maplibregl-ctrl-bottom-left {
+    left: 1rem !important;
+    bottom: 5rem !important;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-ink-deep);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-ink-line);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-paper-dim);
+}
