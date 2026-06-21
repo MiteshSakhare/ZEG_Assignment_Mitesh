@@ -1,7 +1,7 @@
 import type { AnalyzeResponse, GeoJSONFeatureCollection, GeoJSONGeometry, SetbacksValue } from "../types";
 
 const _RAW_URL = import.meta.env.VITE_API_URL || "http://localhost:8000";
-const API_URL = _RAW_URL.replace(/\/$/, "");
+const API_URL = _RAW_URL.replace(/\/+$/, "");
 
 async function request<T>(path: string, init?: RequestInit): Promise<T> {
   const res = await fetch(`${API_URL}${path}`, {
